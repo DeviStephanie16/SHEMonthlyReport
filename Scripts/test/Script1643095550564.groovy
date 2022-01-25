@@ -21,3 +21,7 @@ WebUI.openBrowser('google.com')
 
 WebUI.delay(10)
 
+WebUI.clickImage(findTestObject(null))
+
+WebUI.waitForAlert(0)
+
